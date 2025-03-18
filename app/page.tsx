@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles, Rocket, TrendingUp } from "lucide-react"
-
+import ham_i from "./assets/ham_i.png"
 
 export default function Home() {
   return (
@@ -55,7 +55,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full animate-pulse"></div>
               <div className="absolute inset-1 bg-black rounded-full flex items-center justify-center">
                 <Image
-                  src="VishalAlagh4/hamsom/app/assets/ham_i.png"
+                  src={ham_i}
                   alt="HAMSOM Coin"
                   width={200}
                   height={200}
