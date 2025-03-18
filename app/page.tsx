@@ -16,7 +16,6 @@ export default function Home() {
         <div className="container mx-auto px-4 py-20 relative z-10">
           <nav className="flex justify-between items-center mb-16">
             <div className="flex items-center gap-2">
-              <Sparkles className="h-6 w-6 text-yellow-400" />
             </div>
           </nav>
 
