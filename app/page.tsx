@@ -2,6 +2,7 @@ import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Sparkles, Rocket, TrendingUp } from "lucide-react"
 
+
 export default function Home() {
   return (
     <div className="min-h-screen bg-black text-white">
@@ -54,7 +55,7 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-r from-pink-500 to-purple-600 rounded-full animate-pulse"></div>
               <div className="absolute inset-1 bg-black rounded-full flex items-center justify-center">
                 <Image
-                  src="/placeholder.svg?height=200&width=200"
+                  src="app/assets/ham_i.png"
                   alt="HAMSOM Coin"
                   width={200}
                   height={200}
