@@ -31,7 +31,7 @@ export default function Home() {
 
             <h1 className="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600">
-                HAMSOM COIN
+                HAMSOM
               </span>
             </h1>
 
