@@ -17,11 +17,7 @@ export default function Home() {
           <nav className="flex justify-between items-center mb-16">
             <div className="flex items-center gap-2">
               <Sparkles className="h-6 w-6 text-yellow-400" />
-              <span className="font-bold text-xl">HAMSOM</span>
             </div>
-            <Button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700">
-              Buy Now
-            </Button>
           </nav>
 
           <div className="flex flex-col items-center text-center max-w-4xl mx-auto">
@@ -121,9 +117,7 @@ export default function Home() {
           <p className="text-gray-400 text-lg mb-8">
             Don't miss out on the next big meme coin sensation. Join the HAMSOM revolution today!
           </p>
-          <Button className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-lg py-6 px-10">
-            Buy HAMSOM Now
-          </Button>
+          
         </div>
       </div>
 
