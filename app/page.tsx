@@ -46,7 +46,7 @@ export default function Home() {
 
             <div className="flex flex-col sm:flex-row gap-4 mb-16">
               <h1 className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-lg py-6 px-8">
-                Buy HAMSOM 
+                HAMSOM 
               </h1>
              
             </div>
